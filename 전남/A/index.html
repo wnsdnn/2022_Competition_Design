@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전남</title>
+    <link rel="stylesheet" href="./fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <input type="checkbox" name="slide" id="slide">
+        <input type="checkbox" name="menu" id="menu">
+        <!-- 헤더 -->
+        <header>
+            <div class="container flex">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="logoImg" title="logoImg">
+                    </a>
+                </div>
+                <label class="menu_chk" for="menu"><i class="fa fa-bars"></i></label>
+                <div class="menus flex">
+                    <div class="menu">
+                        <ul class="flex">
+                            <li><a href="#">정원 정보</a></li>
+                            <li><a href="#">버스킹</a></li>
+                            <li><a href="./whiching.html">관람/체험</a></li>
+                            <li><a href="#">마이페이지</a></li>
+                        </ul>
+                    </div>
+                    <div class="util flex">
+                        <button class="btn" data-text="회원가입">회원가입</button>
+                        <button class="btn" data-text="로그인">로그인</button>
+                    </div>
+                </div>
+            </div>
+            <label for="menu" class="back menu_chk"></label>
+        </header>
+
+        <!-- 메인 -->
+        <section id="main">
+            <!-- 슬라이드 -->
+            <div class="slide">
+                <div class="visual">
+                    <img src="./img/visual.gif" alt="visualImg" title="visualImg">
+                </div>
+                <div class="btns flex">
+                    <label for="slide" class="pause"><i class="fa fa-pause"></i></label>
+                    <label for="slide" class="play"><i class="fa fa-play"></i></label>
+                </div>
+                <div class="text flex">
+                    <h3>사시사철 다른 풍경, 다른 꽃을 보고 다른 추억을 남기세요.</h3>
+                    <p>Recusandae quidem laudantium voluptate commodi omnis explicabo nihil culpa magnam! Quod est incidunt vitae eum, porro quibusdam amet laborum atque maiores dolor beatae quia.</p>
+                    <div class="btns flex">
+                        <button class="btn" data-text="READ MORE">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 경남 정원 소개 -->
+            <div class="title">
+                <h3 data-text="Introduce">GyeongNam Garden Introduce</h3>
+                <p>경남 정원 소개</p>
+            </div>
+
+            <div class="introduce">
+                <div class="container flex">
+                    <div class="left">
+                        <div class="text flex">
+                            <h4>경상남도의 민간정원은 ‘수목원·정원의 조성 및 진흥에 관한 법률’에 따라 
+                                법인·단체 또는 개인이 조성·운영하는 정원으로 경남도지사가 지정한다.</h4>
+                            <p>Numquam voluptate ad et, omnis exercitationem unde ratione rem amet a possimus error in? Eius excepturi pariatur doloremque aperiam repudiandae natus, aut aliquam dolore inventore voluptates minima repellendus labore optio voluptatibus! Quod!</p>
+                            <div class="btns flex">
+                                <a href="#" class="btn" data-text="교통정보">교통정보</a>
+                                <a href="#" class="btn" data-text="정원문화해설사">정원문화해설사</a>
+                                <a href="#" class="btn" data-text="정원안내지도">정원안내지도</a>
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="./img/제공이미지/17.jpg" alt="introImg" title="introImg">
+                        </div>
+                    </div>
+                    <div class="right flex">
+                        <div class="photos">
+                            <img src="./img/제공이미지/20.jpg" alt="introImg" title="introImg">
+                            <div class="photo">
+                                <img src="./img/제공이미지/21.jpg" alt="introImg" title="introImg">
+                            </div>
+                        </div>
+                        <div class="text flex">
+                            <h4>경남도내 민간정원은 전국 전체 민간정원(61곳) 중 30%를 차지하고 있다. 
+                                도내 민간정원은 남해 섬이정원 · 남해토피아랜드 · 물빛소리정원등이 유명하다.</h4>
+                            <p>Quidem animi sint perspiciatis magnam amet saepe explicabo nemo dolorem error ipsa facilis voluptate necessitatibus ut! Aspernatur, commodi impedit?</p>
+                            <div class="btns flex">
+                                <a href="#" class="btn" data-text="정원역사">정원역사</a>
+                                <a href="#" class="btn" data-text="정원관광코스">정원관광코스</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 경남 정원 갤러리 -->
+            <div class="title">
+                <h3 data-text="Gallery">GyeongNam Garden Gallery</h3>
+                <p>경남 정원 갤러리</p>
+            </div>
+
+            <div class="gallery">
+                <div class="container">
+                    <div class="top gallery_container grid">
+                        <div class="item">
+                            <img src="./img/gallery/섬이정원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>섬이정원</h3>
+                                <p>전화번호 : 055-863-0206</p>
+                                <p>평점 : 1.5점</p>
+                                <p>리뷰 : 3개</p>
+                                <p>위치 : 통영시</p>
+                                <button class="btn" data-garden="섬이정원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/나폴리농원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>나폴리농원</h3>
+                                <p>전화번호 : 055-363-1206</p>
+                                <p>평점 : 3점</p>
+                                <p>리뷰 : 3개</p>
+                                <p>위치 : 통영시</p>
+                                <button class="btn" data-garden="나폴리농원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/사천식물랜드.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>사천식물랜드</h3>
+                                <p>전화번호 : 055-313-5266</p>
+                                <p>평점 : 4.3점</p>
+                                <p>리뷰 : 6개</p>
+                                <p>위치 : 사천시</p>
+                                <button class="btn" data-garden="사천식물랜드" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/춘화의정원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>춘화의정원</h3>
+                                <p>전화번호 : 055-365-5012</p>
+                                <p>평점 : 1.1점</p>
+                                <p>리뷰 : 4개</p>
+                                <p>위치 : 통영시</p>
+                                <button class="btn" data-garden="춘화의정원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom gallery_container grid">
+                        <div class="item">
+                            <img src="./img/gallery/농부가그린정원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>농부가그린정원</h3>
+                                <p>전화번호 : 055-313-1490</p>
+                                <p>평점 : 1점</p>
+                                <p>리뷰 : 10개</p>
+                                <p>위치 : 김해시</p>
+                                <button class="btn" data-garden="농부가그린정원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/새미골정원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>새미골정원</h3>
+                                <p>전화번호 : 055-269-8286</p>
+                                <p>평점 : 2점</p>
+                                <p>리뷰 : 8개</p>
+                                <p>위치 : 양산시</p>
+                                <button class="btn" data-garden="새미골정원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/옥동힐링가든.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>옥동힐링가든</h3>
+                                <p>전화번호 : 055-119-1123</p>
+                                <p>평점 : 3.3점</p>
+                                <p>리뷰 : 9개</p>
+                                <p>위치 : 김해시</p>
+                                <button class="btn" data-garden="옥동힐링가든" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/gallery/만화방초정원.jpg" alt="galleryImg" title="galleryImg">
+                            <div class="text flex">
+                                <h3>만화방초정원</h3>
+                                <p>전화번호 : 055-986-7593</p>
+                                <p>평점 : 4.1점</p>
+                                <p>리뷰 : 5개</p>
+                                <p>위치 : 고성군</p>
+                                <button class="btn" data-garden="만화방초정원" data-text="정원 미리보기">정원 미리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 알림 • 소통 -->
+            <div class="title">
+                <h3 data-text="Communcation">Notice & Communcation</h3>
+                <p>알림 • 소통</p>
+            </div>
+
+            <div class="communcation">
+                <div class="container flex">
+                    <div class="item">
+                        <img src="./img/제공이미지/12.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>제 1회 경남정원문화작품공모전 홍보</h4>
+                                <p>2022-08-31</p>
+                            </div>
+                        </div>
+                        <div class="num">01</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/16.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>2022 경남 민간정원 지원사업 안내</h4>
+                                <p>2022-08-30</p>
+                            </div>
+                        </div>
+                        <div class="num">02</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/15.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>「2022년 민간정원 활성화지원 사업」 모집공고 알림</h4>
+                                <p>2022-08-30</p>
+                            </div>
+                        </div>
+                        <div class="num">03</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/18.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>제 2회 경상남도 푸른 경남정원상 시상계획</h4>
+                                <p>2022-08-29</p>
+                            </div>
+                        </div>
+                        <div class="num">04</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/31.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>08.26일 현재 민간정원시설 운영현황입니다</h4>
+                                <p>2022-08-26</p>
+                            </div>
+                        </div>
+                        <div class="num">05</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/20.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>경남 민간정원정보 나눔방(SNS) 개설 및 운영</h4>
+                                <p>2022-08-26</p>
+                            </div>
+                        </div>
+                        <div class="num">06</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/33.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>정원 해설가 자격증 취득관련 안내</h4>
+                                <p>2022-08-20</p>
+                            </div>
+                        </div>
+                        <div class="num">07</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/40.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>현재 운영하고 있는 민간정원 공지사항 모음입니다</h4>
+                                <p>2022-08-20</p>
+                            </div>
+                        </div>
+                        <div class="num">08</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/12.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>제 1회 경남정원문화작품공모전 홍보</h4>
+                                <p>2022-08-31</p>
+                            </div>
+                        </div>
+                        <div class="num">01</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/16.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>2022 경남 민간정원 지원사업 안내</h4>
+                                <p>2022-08-30</p>
+                            </div>
+                        </div>
+                        <div class="num">02</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/15.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>「2022년 민간정원 활성화지원 사업」 모집공고 알림</h4>
+                                <p>2022-08-30</p>
+                            </div>
+                        </div>
+                        <div class="num">03</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/18.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>제 2회 경상남도 푸른 경남정원상 시상계획</h4>
+                                <p>2022-08-29</p>
+                            </div>
+                        </div>
+                        <div class="num">04</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/31.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>08.26일 현재 민간정원시설 운영현황입니다</h4>
+                                <p>2022-08-26</p>
+                            </div>
+                        </div>
+                        <div class="num">05</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/20.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>경남 민간정원정보 나눔방(SNS) 개설 및 운영</h4>
+                                <p>2022-08-26</p>
+                            </div>
+                        </div>
+                        <div class="num">06</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/33.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>정원 해설가 자격증 취득관련 안내</h4>
+                                <p>2022-08-20</p>
+                            </div>
+                        </div>
+                        <div class="num">07</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                    <div class="item">
+                        <img src="./img/제공이미지/40.jpg" alt="communcationImg" title="communcationImg">
+                        <div class="text flex">
+                            <div class="content flex">
+                                <h4>현재 운영하고 있는 민간정원 공지사항 모음입니다</h4>
+                                <p>2022-08-20</p>
+                            </div>
+                        </div>
+                        <div class="num">08</div>
+                        <i class="fa fa-plus-circle"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 공지사항 -->
+            <input type="checkbox" id="notice">
+            <div class="notice flex">
+                <div class="title flex">
+                    <h3>"코로나19 시대, 모두를 위한 약속" <span>거리두기 2m</span></h3>
+                    <div class="btn">
+                        <button class="btn" data-text="닫기">닫기</button>
+                        <label for="notice"></label>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./img/제공이미지/2.jpg" alt="noticeImg" title="noticeImg">
+                </div>
+                <div class="content flex">
+                    <p>Numquam iure adipisci sed, necessitatibus est fuga accusantium neque eaque asperiores fugit vero distinctio ratione veritatis aliquam voluptates quasi. Nemo, ab maxime!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer>
+            <img src="./img/제공이미지/22.jpg" alt="footerImg" title="footerImg">
+            <div class="text flex">
+                <div class="top flex">
+                    <div class="copy">
+                        <p>전라남도 여수시 여문2로 148</p>
+                        <p>COPYRIGHT ⓒ 2022 YEOSU INFORMATION SCIENCE HIGH SCHOOL WEB DESIGN AND DEVELOPMENT CLUB ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="icons flex">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="bottom flex">
+                    <ul class="menu flex">
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">저작권 보호정책</a></li>
+                        <li><a href="#">도로명 주소안내</a></li>
+                        <li><a href="#">사이트오류 신고</a></li>
+                    </ul>
+
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="logoImg" title="logoImg">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
